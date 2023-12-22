@@ -1,0 +1,3 @@
+#!/bin/bash
+randsession=$(openssl rand -base64 32 | tr -dc 'a-z0-9' | head -c 26)
+read -p "Você deseja usar um parâmetro personalizado? (y/n) "
